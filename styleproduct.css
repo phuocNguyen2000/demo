@@ -1,0 +1,19 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+#ifor{
+  margin: 0 auto;
+  width: 90%;
+}
+#footer{
+ color: white;
+ background-color: black;
+  text-align: center;
+}
+
