@@ -18,4 +18,19 @@
  background-color: black;
   text-align: center;
 }
-
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  background-color: rgba(77, 75, 71, 0.829)!important;
+  
+}
+.na{
+  background-color: cyan !important;
+  
+}
+.na a{
+ 
+  color: rgb(255, 255, 255) !important;
+}

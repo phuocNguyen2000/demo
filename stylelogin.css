@@ -1,0 +1,31 @@
+
+:root
+{
+  --color-main: cyan;
+  --color-text: white;
+}
+*{
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#body{
+    height: 600px;
+    width: 90%;
+}
+
+#footer{
+ 
+    color:var(--color-text) !important;
+    background-color: rgba(0, 0, 0, 0.589) !important;
+     text-align: center;
+   }
+
+
+
+
+
+
+
+

@@ -3,6 +3,20 @@
   Cardd(imun);
    var _btn_more=document.getElementById('btn_more');
    _btn_more.onclick=()=>{ imun=imun+12;Cardd(imun);}
+   $(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+      $('#back-to-top').fadeIn();
+    } else {
+      $('#back-to-top').fadeOut();
+    }
+  });
+  // scroll body to 0px on click
+  $('#back-to-top').click(function () {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 400);
+    return false;
+  });
   
 })();
 function card(img,p,pr)

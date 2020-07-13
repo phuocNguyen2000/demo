@@ -1,6 +1,7 @@
 :root
 {
-  --color-red: red;
+  --color-main: cyan;
+  --color-text: white;
 }
 *{
   font-family: 'Roboto', sans-serif;
@@ -11,14 +12,34 @@
 
 
 
-#ifor{
+#ifor,#product-highlight{
   margin: 0 auto;
   width: 90%;
+  height: 100%;
 }
 #footer{
- color: white;
- /* background-color: black; */
- background-color: var(--color-red);
+ 
+ color:var(--color-text) !important;
+ background-color: rgba(0, 0, 0, 0.589) !important;
   text-align: center;
+}
+.lit-star,.fa-star:hover{
+  color: yellow !important;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  background-color: rgba(255, 166, 0, 0.829)!important;
+  
+}
+.na{
+  background-color: cyan !important;
+  
+}
+.na a{
+ 
+  color: rgb(255, 255, 255) !important;
 }
 
